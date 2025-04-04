@@ -2,19 +2,21 @@ import 'package:flutter/material.dart';
 
 void main() => runApp
   (
-  Column(
-    children: <Widget>[
-      Text('Entregando app com flutter em coluna', textDirection: TextDirection.ltr,),
-      Text('Ola mundo', textDirection: TextDirection.ltr),
-      Expanded(
-        child: FittedBox(
-          fit: BoxFit.contain,
-          child: const FlutterLogo(),
-        ),
-      ),
-    ],
-  ),
-);
+    Column(
+      children: <Widget>[
+        Text('Deliver features faster', textDirection: TextDirection.ltr,),
+        Text('Craft beautiful UIs', textDirection: TextDirection.ltr),
+        Text('Craft beautiful UIs', textDirection: TextDirection.ltr),
+        Text('Craft beautiful UIs', textDirection: TextDirection.ltr),
+        Column(
+          children: <Widget>[
+            Text('texto',
+              textDirection: TextDirection.ltr,),
+          ],
+        )
+      ],
+    )
+  );
 
 /*
 class MyApp extends StatelessWidget {
