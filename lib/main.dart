@@ -1,20 +1,16 @@
 import 'package:flutter/material.dart';
+const primaryColor = Color(0xFF151026);
 
 void main() => runApp
   (
-    Column(
-      children: <Widget>[
-        Text('Deliver features faster', textDirection: TextDirection.ltr,),
-        Text('Craft beautiful UIs', textDirection: TextDirection.ltr),
-        Text('Craft beautiful UIs', textDirection: TextDirection.ltr),
-        Text('Craft beautiful UIs', textDirection: TextDirection.ltr),
-        Column(
-          children: <Widget>[
-            Text('texto',
-              textDirection: TextDirection.ltr,),
-          ],
+    MaterialApp(
+      home: Scaffold(
+        appBar: AppBar(
+          backgroundColor: primaryColor,
+          title: const Text('texti'),
         )
-      ],
+      )
+
     )
   );
 
